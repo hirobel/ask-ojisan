@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "askおじさん",
+  "version": "1.0",
+  "description": "Amazonの商品に対して「今は時期が悪い」という説明を提供します。",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "askおじさん"
+  },
+  "options_page": "options.html"
+}
